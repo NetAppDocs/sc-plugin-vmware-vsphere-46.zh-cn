@@ -18,6 +18,7 @@ REST API 通过 Swagger 网页公开。您可以访问 Swagger 网页以显示�
 
 此插件具有与 Windows SnapCenter Swagger 网页不同的 Swagger 网页。
 
+.开始之前
 对于适用于 VMware vSphere 的 SnapCenter 插件 REST API ，您必须知道 SnapCenter VMware 插件的 IP 地址或主机名。
 
 
@@ -33,6 +34,7 @@ NOTE: 此插件仅支持用于与第三方应用程序集成的 REST API ，不�
 IMPORTANT: 请勿在 REST API URL 中使用以下字符： + ，。， % 和 & 。
 
 +
+.示例
 访问 SnapCenter VMware 插件 REST API ：
 
 +
