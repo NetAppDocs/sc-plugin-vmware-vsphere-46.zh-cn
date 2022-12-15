@@ -1805,7 +1805,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-08-25 13:01:49 +0000">08/25/2022</time>
+    <time datetime="2022-12-14 18:25:37 +0000">12/14/2022</time>
     
   
 
@@ -1857,9 +1857,11 @@
 <p>如果您不再需要备份来执行其他数据保护操作，则可以删除适用于 VMware vSphere 的 SnapCenter 插件备份。您可以同时删除一个备份或多个备份。</p>
 </div>
 <div class="paragraph">
+<div class="title">开始之前</div>
 <p>您不能删除已挂载的备份。您必须先卸载备份，然后才能将其删除。</p>
 </div>
 <div class="paragraph">
+<div class="title">关于此任务</div>
 <p>二级存储上的 Snapshot 副本由 ONTAP 保留设置管理，而不是由 SnapCenter VMware 插件管理。因此，在使用 SnapCenter VMware 插件删除备份时，主存储上的 Snapshot 副本会被删除，但二级存储上的 Snapshot 副本不会被删除。如果二级存储上仍存在 Snapshot 副本，则 SnapCenter VMware 插件会保留与备份关联的元数据，以支持还原请求。当 ONTAP 保留过程删除二级 Snapshot 副本时， SnapCenter VMware 插件将使用定期执行的清除作业删除元数据。</p>
 </div>
 <div class="olist arabic">
